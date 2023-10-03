@@ -15,7 +15,7 @@
 #include "os.hpp"
 #include "../xparser.hpp"
 
-#include "xeus-cpp/xoptions.hpp"
+//#include "xeus-cpp/xoptions.hpp"
 
 namespace xcpp
 {
