@@ -21,7 +21,7 @@ namespace xcpp
 {
     argparser writefile::get_options()
     {
-        argparser argpars("file", XEUS_CLING_VERSION, argparse::default_arguments::none);
+        argparser argpars("file", XEUS_CPP_VERSION, argparse::default_arguments::none);
         argpars.add_description("write file");
         argpars.add_argument("-a", "--append").help("append").default_value(false).implicit_value(true);
         argpars.add_argument("filename").help("filename").required();
